@@ -14,7 +14,7 @@ The assignment is done in a ROS architecture for controlling a robot moving in t
 
 ## The simulation is done in following steps:
 
-1.For the first step, exam_final.py node requests my_srv for a random target position between the range of 1 to 6.When the robot reaches the target and the status of robot is displayed, the main node requests the user to input again.
+1.For the first step, final_code.py node requests my_srv for a random target position between the range of 1 to 6.When the robot reaches the target and the status of robot is displayed, the main node requests the user to input again.
 2.For the second step, the user chooses 1 out of 6 possible target positions.
 3.For the third step,the wall_follower service is generated through initialization of a service client to allow the robot to follow the external walls.
 4.For the fourth step, the node stops all actions and stops the robot by publishing commands of zero velocity in topic /cmd_vel.
